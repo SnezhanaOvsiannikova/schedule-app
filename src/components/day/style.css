@@ -51,7 +51,7 @@
 }
 .selected-day,
 .active-cell {
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
 }
 @media (max-width: 966px) {
   .row-wrap .day,

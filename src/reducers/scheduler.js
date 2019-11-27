@@ -13,12 +13,12 @@ const schedule = (state = initialState, action) => {
     case GET_SCHEDULE_DATA_SUCCESS:
       return {
         ...state,
-        data: action.payload,
+        data: action.payload
       };
     case GET_SCHEDULE_DATA_FAILED:
       return {
         ...state,
-        error: action.payload,
+        error: action.payload
       };
     default:
       return state;

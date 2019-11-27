@@ -1,6 +1,6 @@
 body {
   background-color: #f9f9fb;
-  color: #b4b4b6; 
+  color: #b4b4b6;
 }
 .app {
   padding: 100px;
@@ -20,6 +20,9 @@ h1 {
 .cell {
   border-right: 1px solid #b8b8bb;
   flex: 1;
+}
+.cell:hover {
+  cursor: pointer;
 }
 .btn {
   background-color: #b4b4b4;
@@ -47,7 +50,7 @@ h1 {
 }
 @media (max-width: 599px) {
   .btn {
-      padding: 8px 20px;
+    padding: 8px 20px;
   }
 }
 @media (max-width: 767px) {

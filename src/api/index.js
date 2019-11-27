@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from "axios";
 
 const data = {
   mo: [
@@ -8,11 +8,11 @@ const data = {
     },
     {
       bt: 300,
-      et: 359,
+      et: 359
     },
     {
       bt: 360,
-      et: 419,
+      et: 419
     }
   ],
   tu: [],
@@ -33,7 +33,7 @@ const data = {
     {
       bt: 1260,
       et: 1319
-    },
+    }
   ],
   fr: [
     {
@@ -165,7 +165,6 @@ const data = {
 export const fetchScheduleData = () => {
   // return axios.get('https://test');
   return new Promise(res => {
-    setTimeout(() => res(data), 1000)
+    setTimeout(() => res(data), 1000);
   });
 };
-

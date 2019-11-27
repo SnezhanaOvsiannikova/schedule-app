@@ -3,7 +3,7 @@ import { fetchScheduleData } from "../api";
 import {
   GET_SCHEDULE_DATA_REQUEST,
   GET_SCHEDULE_DATA_SUCCESS,
-  GET_SCHEDULE_DATA_FAILED,
+  GET_SCHEDULE_DATA_FAILED
 } from "../actions/actionsType";
 
 function* getSchedule() {
