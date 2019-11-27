@@ -1,0 +1,63 @@
+.heading-table .select-all-days,
+.heading-table .left-block {
+  width: 58px;
+  height: 48px;
+  border-right: 1px solid transparent;
+  box-sizing: border-box;
+}
+.heading-table .select-all-days {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.heading-table .select-all-days:hover {
+  cursor: pointer;
+}
+.schedule-table-body {
+  border: 1px solid #d8d8db;
+  margin-bottom: 40px;
+}
+.heading-table.row-wrap .cell {
+  border-right: none;
+  display: flex;
+}
+.heading-table.row-wrap .cell > span {
+  align-self: center;
+}
+.heading-table.row-wrap .cell:last-child {
+  border-left: none;
+}
+.heading-table.row-wrap .cell:nth-child(3n) {
+  position: relative;
+  border-left: 1px solid #949494;
+}
+.heading-table.row-wrap .cell:nth-child(3n):after {
+  content: "";
+  top: 0px;
+  left: -1px;
+  position: absolute;
+  width: 1px;
+  background: #fff;
+  height: 35px;
+}
+@media (max-width: 599px) {
+  .heading-table.row-wrap .cell > span,
+  .select-all-days,
+  .day {
+    font-size: 12px;
+  }
+}
+@media (max-width: 966px) {
+  .heading-table .select-all-days,
+  .heading-table .left-block {
+    width: 46px;
+    height: 46px;
+  }
+}
+@media (max-width: 599px) {
+  .heading-table .select-all-days,
+  .heading-table .left-block {
+    width: 30px;
+  }
+}
